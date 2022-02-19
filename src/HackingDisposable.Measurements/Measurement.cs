@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-namespace HackingDisposable
+namespace HackingDisposable.Measurements
 {
     public class Measurement
     {
