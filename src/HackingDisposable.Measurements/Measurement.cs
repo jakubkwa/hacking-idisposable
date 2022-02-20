@@ -5,14 +5,14 @@ namespace HackingDisposable.Measurements
 {
     public class Measurement
     {
-        public static IDisposable Run(Action<TimeSpan> afterMeasuredAction = null) => new Timer(afterMeasuredAction);
+        public static IDisposable Run(Action<TimeSpan>? afterMeasuredAction = null) => new Timer(afterMeasuredAction);
 
         private class Timer : IDisposable
         {
             private readonly Action<TimeSpan> _afterMeasuredAction;
             private readonly Stopwatch _stopwatch;
 
-            public Timer(Action<TimeSpan> afterMeasuredAction)
+            public Timer(Action<TimeSpan>? afterMeasuredAction)
             {
                 _afterMeasuredAction = afterMeasuredAction ?? (_ => { });
                 _stopwatch = Stopwatch.StartNew();

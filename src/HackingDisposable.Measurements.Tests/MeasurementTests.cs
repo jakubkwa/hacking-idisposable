@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using Xunit;
 
-namespace HackingDisposable.Tests
+namespace HackingDisposable.Measurements.Tests
 {
     public class MeasurementTests
     {

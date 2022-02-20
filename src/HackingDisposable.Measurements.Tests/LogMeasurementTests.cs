@@ -5,7 +5,7 @@ using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Xunit;
 
-namespace HackingDisposable.Tests
+namespace HackingDisposable.Measurements.Tests
 {
     public class LogMeasurementTests
     {
