@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HackingDisposable\HackingDisposable.Measurements.csproj" />
+    <ProjectReference Include="..\HackingDisposable.Measurements\HackingDisposable.Measurements.csproj" />
   </ItemGroup>
 
 </Project>
